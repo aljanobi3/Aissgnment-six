@@ -1,0 +1,110 @@
+body{  
+
+   
+    background-color: rgba(255, 228, 196, 0.651);
+}
+.MOHAMMAD {
+    font-size: 40px;   
+    text-align:center;  
+    color:#909;  
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+    border-radius: 7rem;
+transition: background-color: 0.25s, color 0.2s ; padding: 1rem;
+}
+}
+
+
+
+div:hover{
+
+    background-color: #30c;
+    color: #fff;
+    cursor: pointer;
+}
+
+  .A-Psalmof-Life {  
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    border-radius: 7rem;
+    font-size: 40px;  
+    text-align:center;  
+    color:#090;    
+    font-family:Times New Roman;  
+}  
+  
+.A-Psalmof-Life1 {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    border-radius: 7rem;
+     color: #005555;  
+    font-size:17px;    
+    text-align:center;  
+    font-family:Times ;  
+}  
+div:hover{
+
+    background-color: #30c;
+    color: #fff;
+    cursor: pointer;
+}
+  
+h2 { 
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;  
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    width: 550px;
+     animation-name: text;  
+    animation-duration: 20s;  
+    animation-iteration-count: infinite;  
+     background-color: rgb(170, 172, 177); 
+    -webkit-transition: width 4s, height 4s, -webkit-transform 4s;
+    transition: width 4s, height 4s, transform 4s;
+  } 
+  
+  h2:hover {
+      
+    width: 300px;
+    height: 200px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background-color:red;
+    animation-name: wobble-up, wobble;
+    animation-duration: 1.2s, 0.2s;
+    animation-delay: 0s, 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1, infinite;
+  }
+  @keyframes wobble-up{
+    000.0%{ transform:rotate( 0deg); }
+    008.3%{ transform:rotate( 1deg); }
+    016.7%{ transform:rotate(-2deg); }
+    025.0%{ transform:rotate( 3deg); }
+    033.3%{ transform:rotate(-4deg); }
+    041.6%{ transform:rotate( 5deg); }
+    050.0%{ transform:rotate(-6deg); }
+    058.3%{ transform:rotate( 7deg); }
+    066.7%{ transform:rotate(-8deg); }
+    075.0%{ transform:rotate( 9deg); }
+    083.3%{ transform:rotate(-10deg); }
+    091.7%{ transform:rotate( 11deg); }
+    100.0%{ transform:rotate(-12deg); }
+  }
+
+
+  
+    
+    
+  
